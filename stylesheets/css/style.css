@@ -1,0 +1,241 @@
+*{
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: "Myriad Pro"!important;
+}
+
+
+h1, h2, h3, a, p{
+    font-family: "Myriad Pro"!important;
+    color: aliceblue!important;
+    text-decoration: none!important;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+.description h2, p{
+    color: #838383!important;
+}
+
+.block2 h1{
+    font-size: 3em;
+    color: #838383!important;
+    margin-bottom: 40px;
+}
+
+hr{
+    color: #838383!important;
+    background-color: #838383!important;
+    size: 2px!important;
+}
+
+.block1, .block2, .block3, .footer, .shadow{
+    width: 100%;
+    position: relative;
+    
+}
+
+.block3{
+    padding-top: 30px;
+}
+
+.tab{
+    background-color: whitesmoke;
+    text-align: left;
+    width: 100%;
+    height: 80vh;
+    border-radius: 15px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+TABLE{
+    width: 100%;
+}
+
+td{
+    padding: 10px!important;
+    padding-left: 20px!important;
+}
+
+tr, td{
+    margin: 10%;
+    border: 2px solid #b3b3b3;
+    font-size: 1.2em;
+}
+
+.first_str{
+    background-color:#DC7A13;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: auto;
+    margin-left: auto;   
+}
+
+.mid{
+    height: 50%;
+}
+.menu{
+    /*background-color: dimgrey;*/
+    background-color: #DC7A13;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    float: left;
+}
+.submenu{
+    float: right;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #DC7A13;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.description{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.description p{
+    font-size: 2em;
+}
+
+.circle img{
+    padding-top: 5%;
+    width: 80%; 
+}
+
+.pic1{
+    margin: 5%;
+}
+
+ul, li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+
+.col-md-3{
+    vertical-align: middle;
+}
+
+/**********************************BUTTONS********************************************/
+
+a.button8 {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 10px;
+  transition: 0.2s;
+} 
+a.button8:hover { background: rgba(255,255,255,.2); }
+a.button8:active { background: white; }
+
+/**********************************BUTTONS*END*******************************************/
+
+
+.block1 {
+    background-color: #A5D2DA;
+}
+
+.block2 {
+    background-color: whitesmoke;
+    height: 80vh;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.block3 {
+    height: 100vh;
+    background-color: darkseagreen;
+}
+
+.footer {
+    background-color: darkslategray;
+}
+
+img.main_img, h1_title{
+   width: 80%;
+}
+
+.cont{
+    text-align: center;
+    margin-top: 10%;
+
+}
+.title{
+    margin-top: 15%;
+}
+
+.title h1{
+    font-size: 5em!important;
+}
+.row{
+    margin: 0!important;
+    padding: 0!iportant;
+}
+
+
+.block1, .shadow{
+     height: 100vh;
+}
+
+img.pic2{
+    margin-top: 15px;
+    width: 70%;
+}
+
+img.pic3{
+    margin-top: 25px;
+    width: 60%;    
+}
+
+
+
+@media screen and (min-width: 1919px) {
+    .block1, .shadow{
+        height: 100vh;
+    }
+    
+    img.main_img{
+       width: 80%;
+    }
+    .menu{
+        height: 80px;
+    }
+    
+    
+    
+}
